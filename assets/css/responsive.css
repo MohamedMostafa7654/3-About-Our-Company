@@ -1,0 +1,182 @@
+/*====================
+    Responsive css Main
+======================*/
+
+/*
+    Media Queries
+    Responsive Design
+    - Concept Of Width
+    - Mobile
+    - Small Screens
+    - Medium Screens
+    - Large Screens
+    - Future Updates
+*/
+
+@media (min-width: 0px) and (max-width: 320px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .row {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .col-1, .col-2 {
+        margin: 20px 0;
+    }
+
+    .about-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .about-content h2 {
+        font-size: 1rem;
+    }
+
+    .orders span {
+        font-size: 0.6rem;
+    }
+
+    .btn-read-more a {
+        padding: 6px 12px;
+        font-size: 0.6rem;
+    }
+}
+
+/* (Small devices old, 320px and up) */
+@media (min-width: 320px) and (max-width: 480px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .row {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .col-1, .col-2 {
+        margin: 20px 0;
+    }
+
+    .about-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .about-content h2 {
+        font-size: 1rem;
+    }
+
+    .orders span {
+        font-size: 0.6rem;
+    }
+
+    .btn-read-more a {
+        padding: 6px 12px;
+        font-size: 0.6rem;
+    }
+}
+
+/* (Small devices Modern, 480px and up) */
+@media (min-width: 480px) and (max-width: 767px) {
+    
+    .container {
+        padding: 0 20px;
+    }
+
+    .row {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .col-1, .col-2 {
+        margin: 20px 0;
+    }
+
+    .about-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .about-content h2 {
+        font-size: 1rem;
+    }
+
+    .orders span {
+        font-size: 0.6rem;
+    }
+
+    .btn-read-more a {
+        padding: 6px 12px;
+        font-size: 0.6rem;
+    }
+}
+
+/* (Tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .row {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .col-1, .col-2 {
+        margin: 20px 0;
+    }
+
+    .about-content h1 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .about-content h2 {
+        font-size: 1.2rem;
+    }
+
+    .about-content p {
+        width: 100%;
+    }
+
+    .orders {
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+
+    .orders span {
+        font-size: 0.7rem;
+    }
+
+    .btn-read-more a {
+        padding: 8px 16px;
+        font-size: 0.7rem;
+    }
+
+    .about-img img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* (Desktops small laptops , 1024px and up) */
+@media (min-width: 992px) and (max-width: 1200px){
+
+}
+
+/* (Desktops medium screens and Large laptops. , 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1400px){
+    .about-content p {
+        width: 100%;
+    }
+
+    .orders {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* (Extra large screens, 1600px and up) */
+@media (min-width: 1400px) {
+
+}
